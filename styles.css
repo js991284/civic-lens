@@ -43,13 +43,22 @@ body.dark-mode {
 }
 
 /* ///ADD/// Skip Link Styles */
-#skip{
+.skip-link {
+  left: 50%;
+  top: 0;
+  padding: 4px;
   position: absolute;
-  left: -10000px;
-  top: auto;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
+  color: var(--blue-bulletin);
+  background: var(--watchdog-white);
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 4px;
+  transform: translate(-50%, -150%);
+  transition: var(--transition);
+}
+
+.skip-link:focus {
+  transform: translate(-50%, 0%);
 }
 /* ///ADD/// Navigation Styles */
 .mobile-nav {
