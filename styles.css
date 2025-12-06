@@ -114,7 +114,42 @@ footer a:hover {
 }
 
 /* ///ADD/// Global Layout Styles */
+main {
+  padding: 3rem 2rem;
+}
+main h1,
+main h2,
+main h3 {
+  font-weight: lighter;
+  font-family: var(--font-heading);
+}
 
+main p {
+  font-family: var(--font-body);
+}
+
+header {
+  padding: 2rem 1rem .2rem;
+  position: relative;
+  color: var(--watchdog-white);
+  background-color: var(--blue-bulletin);
+}
+
+header h1 {
+  font-size: 2.6rem;
+  font-weight: lighter;
+  font-family: var(--font-heading);
+}
+
+.tagline {
+  padding-top: .3rem;
+  font-size: .8rem;
+  font-family: var(--font-heading);
+}
+
+h2 {
+  padding-bottom: .5rem;
+}
 /* ///ADD/// Global Text Styles */
 
 
