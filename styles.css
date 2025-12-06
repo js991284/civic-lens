@@ -70,6 +70,48 @@ body.dark-mode {
   font-weight: 550;
   font-family: var(--font-body);
 }
+.menu-button {
+  display: block;
+  padding: .3rem;
+  font-size: 1rem;
+  color: var(--watchdog-white);
+  background: var(--news-flash);
+  border: 2px solid var(--news-flash);
+  text-transform: uppercase;
+}
+
+.menu-button:hover {
+  border: 1.5px solid var(--news-flash);
+  background-color: var(--blue-bulletin);
+}
+
+.menu {
+  display: none;
+  margin-top: 0.5rem;
+  padding: 0;
+  list-style: none;
+}
+
+#nav-toggle:checked ~ .menu {
+  display: block;
+}
+
+.menu li a {
+  display: block;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  color: var(--watchdog-white);
+  background: var(--news-flash);
+  text-decoration: none;
+  border-bottom: 2px solid var(--blue-bulletin);
+  text-transform: uppercase;
+}
+
+.menu a:hover,
+footer a:hover {
+  border: 1.5px solid var(--news-flash);
+  background-color: var(--blue-bulletin);
+}
 
 /* ///ADD/// Global Layout Styles */
 
