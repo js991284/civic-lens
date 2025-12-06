@@ -1,10 +1,14 @@
-/* CSS by ///ADD/// YOUR NAME */
+/* CSS by Jesus Sanchez */
 
 /* Imported Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wdth,wght@0,18..144,87..112,300..900;1,18..144,87..112,300..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 
-/* ///ADD/// CSS Reset */
-
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 /* Root Variables */
 :root {
@@ -48,6 +52,15 @@ body.dark-mode {
   overflow: hidden;
 }
 /* ///ADD/// Navigation Styles */
+.mobile-nav {
+  margin: 1rem auto;
+  width: 100%;
+  max-width: 500px;
+  position: relative;
+  text-align: center;
+  font-weight: 550;
+  font-family: var(--font-body);
+}
 
 /* ///ADD/// Global Layout Styles */
 
