@@ -92,7 +92,7 @@ body.dark-mode {
   list-style: none;
 }
 
-#nav-toggle:checked ~ .menu {
+#menu-toggle:checked ~ .menu {
   display: block;
 }
 
@@ -190,7 +190,7 @@ h2 {
   transform: scale(1.04);
 }
 #featured-articles h2 {
-  padding: 1rem 0;
+  padding: 1rem 1rem;
 }
 
 #articles-container {
@@ -215,8 +215,9 @@ h2 {
 }
 
 #featured-articles div:hover {
-  transform: scale(1.05);
+  transform: scale(1.04);
 }
+
 #alerts h2 {
   padding-top: 1rem;
 }
@@ -345,7 +346,7 @@ footer p {
     text-align: left;
   }
 
-  #nav-toggle ~ .menu {
+  #menu-toggle ~ .menu {
     display: flex;
   }
 
@@ -449,7 +450,7 @@ header,
 
 /* ///ADD///  Feature Query for :has() that checks if the #menu-toggle is checked */
 @supports (selector(:has(*))) {
-  .mobile-nav:has(#nav-toggle:checked) .menu {
+  .mobile-nav:has(#menu-toggle:checked) .menu {
     padding: 10px;
     background-color: var(--blue-bulletin);
   }
